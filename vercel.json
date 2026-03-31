@@ -1,0 +1,1 @@
+{"version": 2, "builds": [{"src": "api/*.js", "use": "@vercel/node"}], "routes": [{"src": "/(.*)", "dest": "api/generate.js"}], "env": {"TWITCH_CLIENT_ID": "@twitch_client_id", "TWITCH_CLIENT_SECRET": "@twitch_client_secret"}}
